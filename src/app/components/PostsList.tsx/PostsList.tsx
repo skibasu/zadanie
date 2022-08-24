@@ -9,7 +9,7 @@ const PostsList: React.FC = () => {
     const { data } = useAppSelector((state) => state.posts)
     if (data.length) {
         return (
-            <div className="post d-flex flex-wrap">
+            <div className="post-list d-flex flex-wrap">
                 {data.map((element) => {
                     return (
                         <article
