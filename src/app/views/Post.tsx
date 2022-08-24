@@ -32,7 +32,7 @@ const Post: React.FC = () => {
         getPost(id!)
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
-    useEffect(() => {}, [post, navigate])
+
     return (
         <Template>
             <section className="py-5 post">
